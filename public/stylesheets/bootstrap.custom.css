@@ -1,0 +1,62 @@
+body {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.navbar-default {
+    background-color: #2c95dd;
+    min-height: 40px;
+    border: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 10px 16px;
+    height: 40px;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+}
+
+.navbar-default .navbar-right:hover,
+.navbar-default .navbar-right:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  padding: 10px 15px 10px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #297ABA;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #41A0E0;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #1e79b8;
+}
+

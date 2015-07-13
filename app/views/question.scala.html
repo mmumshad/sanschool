@@ -1,0 +1,28 @@
+@(questionNo: String, question: String, options: List[String],question_type: String)
+
+<form id="questionForm" method="post">
+	<h4>Question @questionNo</h4>
+	<p>@question</p>
+		
+		@if(options == null) {
+		  <label><input type="text" name="optradio">Answer: </label>
+		} else {
+			  @for(option <- options) {
+			  <div class="radio">
+			  	<label><input type="radio" name="optradio" value="@option">@option</label>
+			  </div>
+			  } 
+		
+		}
+		
+		
+		<div id="errorMessage" class="alert alert-danger" role="alert" hidden="true">
+		  <span class="sr-only">Error:</span>
+		  Wrong! Try again!
+		</div>
+		
+		<div id="correctMessage" class="alert alert-success" role="alert" hidden="true">Correct!! Good Job</div>
+					
+  <button id="formSubmit" type="submit" class="btn btn-primary">Submit</button>
+  <button id="formContinue" class="btn btn-success" hidden="true">Continue >>>></button>
+</form>

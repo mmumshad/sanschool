@@ -1,0 +1,24 @@
+
+body {
+	color: #0092DE;
+	background:
+		url("https://www.emc.com/images/products/vipr/vipr-learn-background-top-desktop.gif")
+		no-repeat 50% 90%;
+	background-position: top;
+	background-color: rgb(242, 242, 242);
+	font-family: "Architects Daughter";
+}
+
+
+.navbar {
+	font-family: "Architects Daughter";
+	background-color: black;
+}
+
+.navbar-default .navbar-brand {
+  color: #0092DE;
+}
+
+.container {
+  margin-left: 0;
+}
